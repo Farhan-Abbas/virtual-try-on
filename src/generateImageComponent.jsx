@@ -44,7 +44,6 @@ async function file(url) {
 	return response.blob();
 }
 
-// Define the generateImageComponent function in the global scope
 export function generateImageComponent(bodyImagePlaceholder, garmentImg) {
     let response = "";
     const handleGenerateImage = async () => {
