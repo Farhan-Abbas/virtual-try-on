@@ -6,6 +6,7 @@ import { generateImageComponent } from "./generateImageComponent.jsx";
 import bodyImagePlaceholder from "./assets/miler-breathable-heathered-jersey-t-shirt.jpg";
 import garmentImagePlaceholder from "./assets/81iB1a1+mWL._AC_UY1000_.jpg";
 
+// main app component
 function App() {
 	const [garmentImage, setGarmentImage] = useState(garmentImagePlaceholder);
 	const [bodyImage, setBodyImage] = useState(bodyImagePlaceholder);
